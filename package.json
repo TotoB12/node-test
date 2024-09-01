@@ -1,0 +1,19 @@
+{
+    "name": "node-test",
+    "version": "1.0.0",
+    "description": "A simple media storage web app",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js",
+        "dev": "nodemon main.js"
+    },
+    "engines" : {
+        "node": "20.x"
+    },
+    "dependencies": {
+        "http": "^0.0.1-security"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
